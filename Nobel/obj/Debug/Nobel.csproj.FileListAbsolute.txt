@@ -1,0 +1,4 @@
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\Nobel\obj\Debug\Nobel.csproj.AssemblyReference.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\Nobel\obj\Debug\Nobel.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\Nobel\obj\Debug\Nobel.Okno.resources
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\Nobel\obj\Debug\Nobel.csproj.GenerateResource.cache
