@@ -9,3 +9,14 @@ C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\V
 C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\grafika_1naloga\obj\Debug\grafika_1naloga.csproj.CoreCompileInputs.cache
 C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\grafika_1naloga\obj\Debug\grafika_1naloga.exe
 C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\FMF\3. Letnik\Prog3\Vaje\Vaje_11_4\grafika_1naloga\obj\Debug\grafika_1naloga.pdb
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_1naloga\bin\Debug\grafika_1naloga.exe.config
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_1naloga\bin\Debug\grafika_1naloga.exe
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_1naloga\bin\Debug\grafika_1naloga.pdb
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_1naloga\obj\Debug\grafika_1naloga.csproj.AssemblyReference.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_1naloga\obj\Debug\grafika_1naloga.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_1naloga\obj\Debug\grafika_1naloga.Form1.resources
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_1naloga\obj\Debug\grafika_1naloga.Properties.Resources.resources
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_1naloga\obj\Debug\grafika_1naloga.csproj.GenerateResource.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_1naloga\obj\Debug\grafika_1naloga.csproj.CoreCompileInputs.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_1naloga\obj\Debug\grafika_1naloga.exe
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_1naloga\obj\Debug\grafika_1naloga.pdb
