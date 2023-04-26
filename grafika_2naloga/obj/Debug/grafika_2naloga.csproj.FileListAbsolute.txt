@@ -31,3 +31,14 @@ C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_2naloga
 C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_2naloga\obj\Debug\grafika_2naloga.csproj.CoreCompileInputs.cache
 C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_2naloga\obj\Debug\grafika_2naloga.exe
 C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\test\PROG3\grafika_2naloga\obj\Debug\grafika_2naloga.pdb
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\prog3-git\PROG3\grafika_2naloga\bin\Debug\grafika_2naloga.exe.config
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\prog3-git\PROG3\grafika_2naloga\bin\Debug\grafika_2naloga.exe
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\prog3-git\PROG3\grafika_2naloga\bin\Debug\grafika_2naloga.pdb
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\prog3-git\PROG3\grafika_2naloga\obj\Debug\grafika_2naloga.csproj.AssemblyReference.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\prog3-git\PROG3\grafika_2naloga\obj\Debug\grafika_2naloga.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\prog3-git\PROG3\grafika_2naloga\obj\Debug\grafika_2naloga.Form1.resources
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\prog3-git\PROG3\grafika_2naloga\obj\Debug\grafika_2naloga.Properties.Resources.resources
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\prog3-git\PROG3\grafika_2naloga\obj\Debug\grafika_2naloga.csproj.GenerateResource.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\prog3-git\PROG3\grafika_2naloga\obj\Debug\grafika_2naloga.csproj.CoreCompileInputs.cache
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\prog3-git\PROG3\grafika_2naloga\obj\Debug\grafika_2naloga.exe
+C:\Users\ALEN\OneDrive - Univerza v Ljubljani\Desktop\prog3-git\PROG3\grafika_2naloga\obj\Debug\grafika_2naloga.pdb

@@ -2,12 +2,13 @@
 using System.Data;
 using System.Windows.Forms;
 using System.Data.SQLite;
+using Npgsql;
 
 namespace Nobel
 {
     public partial class Okno : Form
-    {
-        private const string povNiz = @"Data Source=../../../nobelDB.db; Verison=3;";
+    { 
+        private const string povNiz = @"Server= baza.fmf.uni-lj.si; User Id= student11; Password= student; Database= nobel2012;";
         public Okno()
         {
             InitializeComponent();
@@ -15,9 +16,9 @@ namespace Nobel
 
         private void OknoNalozi(object sender, EventArgs e)
         {
-            SQLiteConnection povezava = new SQLiteConnection(povNiz);
+            NpgsqlConnection povezava = new NpgsqlConnection(povNiz);
             povezava.Open();
-            SQLiteDataAdapter adapter = new SQLiteDataAdapter("SELECT DISTINCT subject FROM nobel", povezava);
+            NpgsqlDataAdapter adapter = new NpgsqlDataAdapter("SELECT DISTINCT subject FROM nobel", povezava);
             DataTable dt = new DataTable();
             adapter.Fill(dt);
             podrocjeComboBox.DisplayMember = "subject";
@@ -30,30 +31,31 @@ namespace Nobel
         {
             string podrocje = podrocjeComboBox.Text.ToString();
             int leto;
-            SQLiteConnection povezava = new SQLiteConnection(povNiz);
+            NpgsqlConnection povezava = new NpgsqlConnection(povNiz);
             textBox.Clear();
-            povezava.Open();
             string vnosLeto = letoTextBox.Text.Trim(' ');
-            SQLiteCommand ukaz = new SQLiteCommand("SELECT * FROM nobel WHERE subject='" + podrocje + "'", povezava);
             if (int.TryParse(vnosLeto, out leto))
             {
-                ukaz = new SQLiteCommand("SELECT * FROM nobel WHERE subject='" + podrocje + "' AND yr='" + leto + "'", povezava);
+                povezava.Open();
+                NpgsqlCommand ukaz = new NpgsqlCommand("SELECT * FROM nobel WHERE subject='" + podrocje + "' AND yr='" + leto + "'", povezava);
+                NpgsqlDataReader rez = ukaz.ExecuteReader();
+                while (rez.Read())
+                {
+                    string vrstica = "";
+                    for (int i = 0; i < rez.VisibleFieldCount; i++)
+                    {
+                        vrstica += rez[i].ToString() + " ";
+                    }
+                    textBox.Text += "* " + vrstica;
+                    textBox.AppendText(Environment.NewLine);
+                }
+                povezava.Close();
             }
             else
             {
+                MessageBox.Show("Nepravilni podatki!", "Napaka!");
                 letoTextBox.Text = "";
             }
-            SQLiteDataReader rez = ukaz.ExecuteReader();
-            while (rez.Read()) 
-            {
-                string vrstica = "";
-                for (int i = 0; i < rez.VisibleFieldCount; i++)
-                {
-                    vrstica += rez[i].ToString() + " ";
-                }
-                textBox.Text += vrstica;
-            }
-            povezava.Close();
 
         }
     }
